@@ -1,18 +1,17 @@
-# AI-Studio-项目标题
-> 一个好的标题会让你的开源项目发挥更大的价值，想不出好的名字也不用担心，起名时就统一使用AIStudio-xxx做开头吧~
+# AI-Studio-钢铁缺陷挑战赛第8名解决方案
+> 咱就是说简单改一改配置文件后就可以跑通模型了~
 
 ## 项目描述
-> 此处可以简要描述项目的“发家史”，例如它是做什么的？它有什么特点？
+> 使用ppyolo2强大的目标检测预训练模型，应用在钢铁缺陷检测问题上
 
 ## 项目结构
-> 一目了然的项目结构能帮助更多人了解，目录树以及设计思想都很重要~
+
 ```
--|data
--|work
+-|steel_bug_detect（解压后的数据集以及配置文件放这里）
+-|PaddleDetection（clone官方的git仓库，但要记得把模型文件放进下面的 /output/ppyolov2_r50vd_dcn_voc/ 文件夹里，模型文件下面解释了）
 -README.MD
--xxx.ipynb
+-钢铁缺陷检测ppyolo2.ipynb
 ```
 ## 使用方式
-> 相信你的Fans已经看到这里了，快告诉他们如何快速上手这个项目吧~  
-A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/usercenter)  
-B：此处由项目作者进行撰写使用方式。
+> 在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/2644983?contributionType=1&shared=1)  ，记得查看不同版本哦～模型文件也在[本项目的AI Studio](https://aistudio.baidu.com/aistudio/projectdetail/2644983?contributionType=1&shared=1)上！
+
